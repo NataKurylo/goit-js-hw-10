@@ -15,7 +15,7 @@ inputEl.addEventListener('input', debounce(() => {findCountry()}, DEBOUNCE_DELAY
     }));
 function findCountry(letter) {
     const requiredCountry = inputEl.value.trim();
-    console.log(requiredCountry);
+    // console.log(requiredCountry);
     if (requiredCountry === '') {
         clearListEl();
         clearInfoEl()
