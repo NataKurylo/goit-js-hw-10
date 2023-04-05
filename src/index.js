@@ -17,7 +17,8 @@ function findCountry(letter) {
     const requiredCountry = inputEl.value.trim();
     console.log(requiredCountry);
     if (requiredCountry === '') {
-        clearAll();
+        clearListEl();
+        clearInfoEl()
         return 
     }
     fetchCountries(requiredCountry).then(data => {
