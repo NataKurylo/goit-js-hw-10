@@ -18,3 +18,32 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+#search-box:hover {
+  border-color: rgb(19, 152, 219);
+}
+#search-box:focus {
+  outline-color: rgb(19, 152, 219);
+}
+ .country-list {
+  list-style: none;
+  padding: 0;
+ }
+
+.country-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+.country-name {
+margin: 5px;
+}
+
+.country-info {
+  font-size: 16px;
+}
+
+span {
+  font-weight: 700;
+}
